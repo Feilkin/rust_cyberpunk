@@ -1,0 +1,1890 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Render",
+				"RenderTargetView"
+			],
+			[
+				"vertex",
+				"vertex_data"
+			],
+			[
+				"impl",
+				"impl-trait\timpl … for … { … }"
+			],
+			[
+				"g",
+				"graphics"
+			],
+			[
+				"pro",
+				"properties"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"Re",
+				"Resource"
+			],
+			[
+				"gfx_",
+				"gfx_device_gl"
+			],
+			[
+				"to_",
+				"to_owned"
+			],
+			[
+				"Res",
+				"Resources"
+			],
+			[
+				"gfx",
+				"gfx_device_gl"
+			],
+			[
+				"ski",
+				"skip_deserializing"
+			],
+			[
+				"skip",
+				"skip_deserializing"
+			],
+			[
+				"sk",
+				"skip_serializing"
+			],
+			[
+				"tile",
+				"tilesets"
+			],
+			[
+				"first",
+				"firstgid"
+			],
+			[
+				"load_",
+				"load_tilesets"
+			],
+			[
+				"tiles",
+				"tilesets"
+			],
+			[
+				"exp",
+				"expect"
+			],
+			[
+				"De",
+				"Deserialize"
+			],
+			[
+				"to",
+				"to_string"
+			],
+			[
+				"RESOUR",
+				"RESOURCE_CACHE"
+			],
+			[
+				"load",
+				"Loadable"
+			],
+			[
+				"stru",
+				"struct\tstruct … { … }"
+			],
+			[
+				"consol",
+				"console_input"
+			],
+			[
+				"console_",
+				"console_input"
+			],
+			[
+				"conso",
+				"console_output"
+			],
+			[
+				"SetNex",
+				"SetNextWindowPos"
+			],
+			[
+				"background_im",
+				"background_image"
+			],
+			[
+				"character",
+				"character"
+			],
+			[
+				"circ",
+				"love.graphics.circle"
+			],
+			[
+				"subte",
+				"subtexture"
+			],
+			[
+				"chra",
+				"character_pool"
+			],
+			[
+				"charact",
+				"character"
+			],
+			[
+				"chara",
+				"character"
+			],
+			[
+				"lines",
+				"love.filesystem.lines"
+			],
+			[
+				"start_",
+				"start_character_turn"
+			],
+			[
+				"charac",
+				"character"
+			],
+			[
+				"current",
+				"current_turn"
+			],
+			[
+				"ppf_",
+				"ppf_troop"
+			],
+			[
+				"characer",
+				"character"
+			],
+			[
+				"character_",
+				"character_loop"
+			],
+			[
+				"turn_",
+				"turn_setup"
+			],
+			[
+				"lgcl",
+				"love.graphics.clear"
+			],
+			[
+				"canvas",
+				"love.graphics.newCanvas"
+			],
+			[
+				"troop",
+				"troop_sheet"
+			],
+			[
+				"print",
+				"love.graphics.print"
+			],
+			[
+				"next_sce",
+				"next_scene_args"
+			],
+			[
+				"push",
+				"love.event.push"
+			],
+			[
+				"newfont",
+				"love.graphics.newFont"
+			],
+			[
+				"background_",
+				"background_loop_y"
+			],
+			[
+				"background_image",
+				"background_image_width"
+			],
+			[
+				"newim",
+				"love.graphics.newImage"
+			],
+			[
+				"update",
+				"update_fps_timer"
+			],
+			[
+				"func",
+				"function\tfunction"
+			],
+			[
+				"coroutine",
+				"coroutine.resume\t(co [, val1, ...])"
+			],
+			[
+				"corout",
+				"coroutine.create\t(f)"
+			],
+			[
+				"T",
+				"TokenType"
+			],
+			[
+				"Token",
+				"Tokenizer"
+			],
+			[
+				"str",
+				"struct\tstruct … { … }"
+			],
+			[
+				"tokeni",
+				"tokenized"
+			],
+			[
+				"macro",
+				"macro_rules\tmacro_rules! … { … }"
+			],
+			[
+				"ext",
+				"extern-crate\textern crate …;"
+			],
+			[
+				"ex",
+				"extern-crate\textern crate …;"
+			],
+			[
+				"prin",
+				"println\tprintln!(…)"
+			],
+			[
+				"raycas",
+				"raycast_old"
+			],
+			[
+				"damage",
+				"damage_timer"
+			],
+			[
+				"damage_timer",
+				"damage_timer_max"
+			],
+			[
+				"get_",
+				"get_aabb"
+			],
+			[
+				"reset_",
+				"reset_systems"
+			],
+			[
+				"processing",
+				"processingSystem"
+			],
+			[
+				"random",
+				"love.math.random"
+			],
+			[
+				"newima",
+				"love.image.newImageData"
+			],
+			[
+				"randoms",
+				"love.math.setRandomSeed"
+			],
+			[
+				"_parse",
+				"_parseCSS"
+			],
+			[
+				"recursi",
+				"_recursiveRender"
+			],
+			[
+				"selected",
+				"selected_region"
+			],
+			[
+				"last_",
+				"last_scale"
+			],
+			[
+				"last_c",
+				"last_cy"
+			],
+			[
+				"setline",
+				"love.graphics.setLineWidth"
+			],
+			[
+				"ARG_",
+				"ARG_CAPTURE_SCIENTIFIC"
+			],
+			[
+				"ARG_C",
+				"ARG_CAPTURE_SCIENTIFIC"
+			],
+			[
+				"_pop",
+				"_popArgs"
+			],
+			[
+				"_OP_",
+				"_OP_CLASS"
+			],
+			[
+				"_DE",
+				"_DELIM_CLASS"
+			],
+			[
+				"_OP_C",
+				"_OP_CAPTURE_PATTERN"
+			],
+			[
+				"_new",
+				"_newRenderer"
+			],
+			[
+				"COMM",
+				"COMMAND_ARG_BASE"
+			],
+			[
+				"COMMAND",
+				"COMMAND_OP_PATTERN"
+			],
+			[
+				"offset_",
+				"offset_y"
+			],
+			[
+				"setpoin",
+				"love.graphics.setPointSize"
+			],
+			[
+				"setlin",
+				"love.graphics.setLineWidth"
+			],
+			[
+				"point",
+				"love.graphics.point"
+			],
+			[
+				"COMMAN",
+				"COMMAND_ARG_DELIM"
+			],
+			[
+				"third",
+				"thirdparty"
+			],
+			[
+				"splatter",
+				"splatterLayer"
+			],
+			[
+				"recta",
+				"love.graphics.rectangle"
+			],
+			[
+				"eyeLevel",
+				"eyeLevelStanding"
+			],
+			[
+				"object",
+				"objectHeight"
+			],
+			[
+				"mouseget",
+				"love.mouse.getPosition"
+			],
+			[
+				"Bullet",
+				"BulletRenderingSystem"
+			],
+			[
+				"wind",
+				"love.window.getWidth"
+			],
+			[
+				"tileIns",
+				"tileInstance"
+			],
+			[
+				"tileI",
+				"tileInstance"
+			],
+			[
+				"tileInstac",
+				"TileInstance"
+			],
+			[
+				"enemy",
+				"enemySprite"
+			],
+			[
+				"mathta",
+				"math.atan2\t(y, x)"
+			],
+			[
+				"prepa",
+				"prepareNavMesh"
+			],
+			[
+				"setc",
+				"love.graphics.setColor"
+			],
+			[
+				"loveline",
+				"love.graphics.line"
+			],
+			[
+				"newfo",
+				"love.graphics.newFont"
+			],
+			[
+				"thid",
+				"thirdparty"
+			],
+			[
+				"thrid",
+				"thirdparty"
+			],
+			[
+				"stock_",
+				"stock_amount"
+			],
+			[
+				"copy_from",
+				"copy_from_apartment"
+			],
+			[
+				"extra",
+				"extra_fields\tstatement"
+			],
+			[
+				"debt_",
+				"debt_free_price"
+			],
+			[
+				"parking_",
+				"parking_space\tstatement"
+			],
+			[
+				"ParkingSpaceC",
+				"ParkingSpaceClientNewQueueView\tclass"
+			],
+			[
+				"ParkingSpaceClient",
+				"ParkingSpaceClientNewView\tclass"
+			],
+			[
+				"Parking",
+				"ParkingSpaceEditView"
+			],
+			[
+				"parking_space",
+				"parking_space_form"
+			],
+			[
+				"Parkin",
+				"ParkingSpaceForm\tclass"
+			],
+			[
+				"btn",
+				"btn-default"
+			],
+			[
+				"buyer_",
+				"buyer_sotu\tstatement"
+			],
+			[
+				"buye",
+				"buyer_1\tstatement"
+			],
+			[
+				"buyer",
+				"buyer_2\tstatement"
+			],
+			[
+				"reser",
+				"reservation_document_form"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "cyberengine/src/game.rs",
+			"settings":
+			{
+				"buffer_size": 9273,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/feikki/.cargo/git/checkouts/imgui-rs-161fde41895667b9/82ece59/imgui-examples/examples/test_window_impl.rs",
+			"settings":
+			{
+				"buffer_size": 22674,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cyberengine/src/scene.rs",
+			"settings":
+			{
+				"buffer_size": 403,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cyberengine/src/resource/mod.rs",
+			"settings":
+			{
+				"buffer_size": 53,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cyberengine/src/resource/tilemap.rs",
+			"settings":
+			{
+				"buffer_size": 9121,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cyberengine/src/graphics/mod.rs",
+			"settings":
+			{
+				"buffer_size": 650,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cyberpunk/src/main.rs",
+			"settings":
+			{
+				"buffer_size": 4382,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "//! Wrapper for textures for ease of use\nuse gfx;\nuse gfx::Factory;\nuse gfx::traits::FactoryExt;\nuse image;\nuse graphics;\nuse genmesh::{Quad, EmitTriangles, MapVertex, Triangulate, MapToVertices, Vertices};\nuse genmesh::generators::Plane;\n\n#[derive(Debug, Clone)]\npub struct Texture {\n    pub view: gfx::handle::ShaderResourceView<graphics::Resources, [f32; 4]>,\n}\n\ngfx_defines! {\n    vertex Vertex {\n        pos: [f32; 2] = \"a_Pos\",\n        uv: [f32; 2]  = \"a_Uv\",\n        color: [f32; 3] = \"a_Color\",\n    }\n\n    pipeline pipe_tex {\n        vbuf: gfx::VertexBuffer<Vertex> = (),\n        texture: gfx::TextureSampler<[f32; 4]> = \"t_Texture\",\n        out: gfx::RenderTarget<graphics::ColorFormat> = \"Target0\",\n    }\n}\n\nimpl Texture {\n    pub fn from_file(factory: &mut graphics::Factory, filename: &str) -> Texture {\n        Texture { view: load_texture(factory, filename).unwrap() }\n    }\n}\n\nimpl graphics::Drawable for Texture {\n    fn draw(\n        &mut self,\n        factory: &mut graphics::Factory,\n        encoder: &mut graphics::Encoder,\n        out: &mut graphics::RenderTargetView,\n    ) -> () {\n        let vertex_data: Vec<Vertex> = Plane::new()\n            .vertex(|v| {\n                Vertex {\n                    pos: [v.pos[0], v.pos[1]],\n                    uv: [0., 0.],\n                    color: [0., 0., 0.],\n                }\n            })\n            .map(|Quad {\n                 x: v0,\n                 y: v1,\n                 z: v2,\n                 w: v3,\n             }| {\n                Quad::new(\n                    Vertex {\n                        pos: v0.pos,\n                        uv: [0., 0.],\n                        color: v0.color,\n                    },\n                    Vertex {\n                        pos: v1.pos,\n                        uv: [1., 0.],\n                        color: v1.color,\n                    },\n                    Vertex {\n                        pos: v2.pos,\n                        uv: [1., 1.],\n                        color: v2.color,\n                    },\n                    Vertex {\n                        pos: v3.pos,\n                        uv: [0., 1.],\n                        color: v3.color,\n                    },\n                )\n            })\n            .triangulate()\n            .vertices()\n            .collect();\n\n        let vertex_buffer = factory.create_buffer()\n        let sampler = factory.create_sampler_linear();\n        let mut data = pipe_tex::Data {\n            vbuf: vertex_data,\n            texture: (self.view, sampler),\n            out: out,\n        };\n    }\n}\n\n// texture loading boilerplate\nfn load_texture(\n    factory: &mut graphics::Factory,\n    path: &str,\n) -> Result<gfx::handle::ShaderResourceView<graphics::Resources, [f32; 4]>, String> {\n    use gfx::format::Rgba8;\n    use gfx::texture as t;\n    let img = image::open(path).unwrap().to_rgba();\n    let (width, height) = img.dimensions();\n    let kind = t::Kind::D2(width as t::Size, height as t::Size, t::AaMode::Single);\n    let (_, view) = factory\n        .create_texture_immutable_u8::<Rgba8>(kind, &[&img])\n        .unwrap();\n    Ok(view)\n}\n",
+			"file": "cyberengine/src/graphics/texture.rs",
+			"file_size": 3171,
+			"file_write_time": 131524588974444004,
+			"settings":
+			{
+				"buffer_size": 3117,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/feikki/Downloads/gfx-master/gfx-master/examples/support/ubo_tilemap/main.rs",
+			"settings":
+			{
+				"buffer_size": 19157,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cyberengine/target/doc/imgui/index.html",
+			"settings":
+			{
+				"buffer_size": 45007,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cyberengine/Cargo.toml",
+			"settings":
+			{
+				"buffer_size": 404,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cyberengine/src/lib.rs",
+			"settings":
+			{
+				"buffer_size": 482,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cyberengine/target/doc/cyberengine/index.html",
+			"settings":
+			{
+				"buffer_size": 5504,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cyberpunk/Cargo.toml",
+			"settings":
+			{
+				"buffer_size": 210,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cyberpunk/resources/maps/offices.json",
+			"settings":
+			{
+				"buffer_size": 6980,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cyberpunk/resources/maps/tilesets/basic_tileset.json",
+			"settings":
+			{
+				"buffer_size": 8614,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Rust Enhanced/RustEnhanced.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					""
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"Love2D"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: File"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: Project"
+				]
+			],
+			[
+				"Packages/Lua Love/LuaLove.sublime-build",
+				"Love2D"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Automatic"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Run (with args)..."
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Check"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Test (with args)..."
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Document"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Clippy"
+				],
+				[
+					"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+					"Script"
+				]
+			],
+			[
+				"Packages/Rust Enhanced/RustEnhanced.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "Run",
+	"command_palette":
+	{
+		"height": 153.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"save as",
+				"Project: Save As"
+			],
+			[
+				"close",
+				"Project: Close"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"cart",
+				"PICO-8: Run Cartridge"
+			],
+			[
+				"pico",
+				"PICO-8: Download Font"
+			],
+			[
+				"todo",
+				"TodoReview: Project Files"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"new fi",
+				"File: New File Relative to Current View"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"diff",
+				"Git: Diff Tool All"
+			],
+			[
+				"minima",
+				"View: Toggle Minimap"
+			],
+			[
+				"colse",
+				"Project: Close"
+			],
+			[
+				"clos",
+				"Project: Close"
+			],
+			[
+				"subli",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"vmenu",
+				"View: Toggle Menu"
+			],
+			[
+				"packa insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 266.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": true,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/work/git/rust_cyberpunk/cyberengine",
+		"/E/work/git/rust_cyberpunk/cyberengine/src",
+		"/E/work/git/rust_cyberpunk/cyberengine/src/graphics",
+		"/E/work/git/rust_cyberpunk/cyberengine/src/resource",
+		"/E/work/git/rust_cyberpunk/cyberpunk",
+		"/E/work/git/rust_cyberpunk/cyberpunk/resources",
+		"/E/work/git/rust_cyberpunk/cyberpunk/resources/maps",
+		"/E/work/git/rust_cyberpunk/cyberpunk/resources/maps/tilesets",
+		"/E/work/git/rust_cyberpunk/cyberpunk/src"
+	],
+	"file_history":
+	[
+		"/E/work/git/rust_cyberpunk/cyberpunk/src/main.rs",
+		"/E/work/git/rust_cyberpunk/cyberengine/src/stuff.md",
+		"/C/Users/feikki/Downloads/gfx-master/gfx-master/examples/support/ubo_tilemap/main.rs",
+		"/C/Users/feikki/.cargo/git/checkouts/imgui-rs-161fde41895667b9/82ece59/imgui-gfx-renderer/src/lib.rs",
+		"/C/Users/feikki/Downloads/gfx-master/gfx-master/examples/Cargo.toml",
+		"/E/work/git/rust_cyberpunk/cyberengine/Cargo.toml",
+		"/E/work/git/rust_cyberpunk/cyberengine/src/lib.rs",
+		"/E/work/git/rust_cyberpunk/cyberpunk/resources/maps/offices_1.json",
+		"/E/work/git/rust_cyberpunk/cyberpunk/resources/maps/tilesets/basic_tileset.tsx",
+		"/C/Users/feikki/OneDrive/Tiedostot/GitHub/cb63/res/maps/offices.lua",
+		"/C/Users/feikki/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.32/README.md",
+		"/C/Users/feikki/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc_version-0.2.1/README.md",
+		"/C/Users/feikki/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.16.0/src/attr.rs",
+		"/C/Users/feikki/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive-1.0.15/src/bound.rs",
+		"/C/Users/feikki/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive_internals-0.16.0/src/lib.rs",
+		"/C/Users/feikki/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive-1.0.15/src/lib.rs",
+		"/C/Users/feikki/.cargo/registry/src/github.com-1ecc6299db9ec823/serde-1.0.15/src/lib.rs",
+		"/C/Users/feikki/.cargo/registry/src/github.com-1ecc6299db9ec823/serde-1.0.15/src/macros.rs",
+		"/C/Users/feikki/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-1.0.3/src/de.rs",
+		"/C/Users/feikki/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive-1.0.15/src/de.rs",
+		"/C/Users/feikki/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_derive-1.0.15/README.md",
+		"/C/Users/feikki/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-1.0.3/src/ser.rs",
+		"/C/Users/feikki/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_json-1.0.3/README.md",
+		"/C/Users/feikki/.cargo/git/checkouts/imgui-rs-161fde41895667b9/82ece59/src/input.rs",
+		"/C/Users/feikki/.cargo/git/checkouts/imgui-rs-161fde41895667b9/82ece59/src/lib.rs",
+		"/C/Users/feikki/.cargo/git/checkouts/imgui-rs-161fde41895667b9/82ece59/imgui-sys/src/lib.rs",
+		"/C/Users/feikki/.cargo/git/checkouts/imgui-rs-161fde41895667b9/82ece59/imgui-sys/src/gfx_support.rs",
+		"/C/Users/feikki/.cargo/git/checkouts/imgui-rs-161fde41895667b9/82ece59/src/trees.rs",
+		"/C/Users/feikki/.cargo/git/checkouts/imgui-rs-161fde41895667b9/82ece59/imgui-sys/build.rs",
+		"/C/Users/feikki/.cargo/git/checkouts/imgui-rs-161fde41895667b9/82ece59/README.markdown",
+		"/C/Users/feikki/.cargo/git/checkouts/imgui-rs-161fde41895667b9/82ece59/imgui-examples/examples/test_window.rs",
+		"/C/Users/feikki/.cargo/git/checkouts/imgui-rs-161fde41895667b9/82ece59/CHANGELOG.markdown",
+		"/E/work/git/rust_cyberpunk/cyberpunk/src/resources/maps/offices_1.json",
+		"/E/work/git/rust_cyberpunk/.gitignore",
+		"/E/work/git/rust_cyberpunk/cyberpunk/Cargo.toml",
+		"/E/work/git/rust_cyberpunk/cyberengine/src/shader/triangle_150.glslv",
+		"/E/work/git/rust_cyberpunk/cyberengine/src/shader/triangle_150.glslf",
+		"/E/work/git/rust_cyberpunk/cyberengine/src/resource.rs",
+		"/E/work/git/cb63/camera.lua",
+		"/E/work/git/cb63/character.lua",
+		"/E/work/git/cb63/namegen.lua",
+		"/E/work/git/cb63/res/male_names.txt",
+		"/E/work/git/cb63/pathfinder.lua",
+		"/E/work/git/cb63/res/spritesheet_characters.xml",
+		"/E/work/git/cb63/parsexml.lua",
+		"/E/work/git/cb63/spritesheet.lua",
+		"/E/work/git/cyberpunk2063/levels/offices_1.json",
+		"/E/work/git/cb63/scenes/setup_scene.lua",
+		"/E/work/git/cb63/conf.lua",
+		"/E/work/git/cb63/main.lua",
+		"/E/work/git/cb63/res/maps/offices.lua",
+		"/E/work/git/cb63/scenemanager.lua",
+		"/E/work/git/cb63/cb63.sublime-project",
+		"/E/work/git/cb63/cb63.sublime-workspace",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/cb63/scenes/play_scene.lua",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/cb63/xml_tree.lua",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/cb63/res/surnames.txt",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/cb63/cb63.sublime-project",
+		"/C/Users/aatu/Downloads/Aseprite-v1.1.13-Source/README.md",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/hackergame/hacker.sublime-project",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/hackergame/src/game.lua",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/hackergame/main.lua",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/cb63/sti/init.lua",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/cb63/res/maps/offices.lua",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/cb63/main.lua",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/edda/helloworld.edda",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/edda/grammar",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/edda/edda/src/tokenizer.rs",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/edda/eddacmd/Cargo.toml",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/edda/eddacmd/src/main.rs",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/edda/edda/src/lib.rs",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/edda/edda/Cargo.toml",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/edda/main.rs",
+		"/C/Users/aatu/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/C/Users/aatu/AppData/Roaming/pico-8/carts/cliche.p8",
+		"/C/Users/aatu/AppData/Roaming/pico-8/carts/crawl.p8",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/hackergame/src/vm.lua",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/hackergame/lib/lovesvg/lovesvg.lua",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/hackergame/README.md",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/hackergame/conf.lua",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/hackergame/src/worldmap.lua",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/hackergame/src/utils.lua",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/hackergame/mod/skin.lua",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/hackergame/src/game_loaders.lua",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/hackergame/mod/nodes/pc.lua",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/hackergame/src/game_ui.lua",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/hackergame/src/game_logic.lua",
+		"/C/Users/aatu/AppData/Roaming/pico-8/carts/leaves.txt.p8l",
+		"/C/Users/aatu/AppData/Roaming/Sublime Text 3/Packages/User/ME-MonokaiC.tmTheme",
+		"/C/Users/aatu/AppData/Roaming/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/hackergame/lib/lovesvg.lua",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/hackergame/lib/lovesvg/init.lua",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/hackergame/res/logo_abm.svg",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/hackergame/mod/scripts/helloworld.lua",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/hackergame/src/node.lua",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/hackergame/src/nodes/pc.lua",
+		"/C/Users/aatu/OneDrive/Tiedostot/love/hacklink/main.lua",
+		"/C/Users/aatu/OneDrive/Tiedostot/GitHub/hackergame/src/splash.lua",
+		"/C/Users/feikki/OneDrive/Tiedostot/love/hacklink/main.lua",
+		"/E/work/git/hacker/hacker.sublime-project",
+		"/E/work/git/cyberpunk/cyberpunk.sublime-project",
+		"/E/work/git/hacker/main_old.lua",
+		"/E/work/git/hacker/lib/lovesvg.lua",
+		"/E/work/git/hacker/lovesvg.lua",
+		"/E/work/git/hacker/worldmap.svg",
+		"/E/work/git/hacker/love.svg",
+		"/E/work/git/hacker/svg2lua.lua",
+		"/E/work/git/hacker/worldmap_another.svg",
+		"/C/Users/feikki/Downloads/lpeg-1.0.1/lpeg-1.0.1/re.lua",
+		"/C/Users/feikki/AppData/Roaming/Sublime Text 3/Packages/TodoReview/TodoReview.sublime-settings",
+		"/C/Users/feikki/AppData/Roaming/Sublime Text 3/Packages/User/TodoReview.sublime-settings",
+		"/C/Users/feikki/AppData/Roaming/Sublime Text 3/Packages/TodoReview/Default.sublime-keymap",
+		"/C/Users/feikki/AppData/Roaming/LOVE/hacker game 2017/worldmap_polygons.dat",
+		"/E/work/git/hacker/worldv2.json",
+		"/E/work/git/hacker/World_V2.0.svg",
+		"/E/work/git/hacker/Simple_world_map.svg",
+		"/E/work/git/hacker/worldmap.json",
+		"/E/work/git/hacker/finland.json",
+		"/C/Users/feikki/AppData/Roaming/LOVE/hacker game 2017/finland_polygons.lua",
+		"/C/Users/feikki/AppData/Roaming/LOVE/hacker game 2017/worldmap_polygons.lua",
+		"/E/work/git/hacker/BlankMap-FlatWorld6.svg",
+		"/E/work/git/cyberpunk/engine/skeletal/actor.lua",
+		"/E/work/git/cyberpunk/engine/skeletal/skin.lua",
+		"/E/work/git/cyberpunk/engine/skeletal/animation.lua",
+		"/E/work/git/kaukokiito/Keraily_1/RepRahtikirja.rdlc",
+		"/E/work/git/cyberpunk/engine/init.lua",
+		"/E/work/git/cyberpunk/conf.lua",
+		"/E/work/git/cyberpunk/main.lua"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 1235.0,
+		"where_history":
+		[
+			"<project>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"main_color",
+			"Quad",
+			"Plane",
+			"\\\\",
+			"\\",
+			"factory",
+			"Resources",
+			"s",
+			"Factory",
+			"out_color",
+			"encoder",
+			"draw",
+			"custom",
+			"image",
+			"texture",
+			"Resources",
+			"load",
+			"Device",
+			"load_texture",
+			"image",
+			"rename",
+			"Deserialize",
+			"Serialize",
+			"struct",
+			"check",
+			"Vec<",
+			"Vec",
+			"Vec<",
+			"iter",
+			"TreeNode",
+			"Tree",
+			"tree",
+			"Ui",
+			"run_ui",
+			"label",
+			"drawTileLayer",
+			"map",
+			"draw",
+			"SetupScene",
+			"LuaLove",
+			"SetupScene.maps",
+			"SetupScene.gui",
+			"move",
+			"MOVE",
+			"ty",
+			"tx",
+			"tx =",
+			"point[1]",
+			"point[2]",
+			"tx",
+			" 1",
+			" + 1",
+			"draw(",
+			"troop_icons",
+			"xargs",
+			"Spritesheet",
+			"spritesheet",
+			"sheet",
+			"cdata",
+			"init",
+			"end_turn",
+			"perfo",
+			"perfor",
+			"perform",
+			"perfom",
+			"perform_character_action",
+			"end_turn",
+			"current_turn",
+			"fille",
+			"Character",
+			"character",
+			"action_poin",
+			"* 2",
+			"print",
+			"movement_cost",
+			"print",
+			"fScore",
+			"map",
+			"hash_point(map, neighbor)",
+			"hash_point(map, current)",
+			"hash_point(map, start)",
+			"_hash",
+			"local",
+			"sort",
+			"SetupScene",
+			"SetupScene.gui.ppf_troop[i]",
+			"character_start_of_turn",
+			"print",
+			"pop_next_character",
+			"onstart_character_loop",
+			"oncharacter_start_of_turn",
+			"icon",
+			"get_attribute",
+			"health",
+			"get_stat",
+			"ppf_troop",
+			"ppf_troops",
+			":",
+			"love",
+			"keypressed",
+			"print",
+			"perpwd",
+			"_draw",
+			"daylevel:enter",
+			"setlevel(day",
+			"damage_",
+			"collision",
+			"ai_system",
+			"nightlevel:ente",
+			"setnightlevel",
+			"damage_timer_ma",
+			"_draw",
+			",\n",
+			"bullet_system",
+			"damage_system",
+			"require_any",
+			"damage_system",
+			"b.health",
+			"draw",
+			"require_all",
+			"night_level",
+			"bullet_sys",
+			"e.dir =",
+			"\"bed\"",
+			"\"sleep\"",
+			"bed",
+			"night_input_system",
+			":update"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"_\\L$1",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "cyberengine/src/game.rs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2505,
+								2511
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/Rust/Rust.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 983.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/feikki/.cargo/git/checkouts/imgui-rs-161fde41895667b9/82ece59/imgui-examples/examples/test_window_impl.rs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22674,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7128,
+								7128
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Rust/Rust.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 7.0,
+						"translation.y": 3526.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "cyberengine/src/scene.rs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 403,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								355,
+								355
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/Rust/Rust.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "cyberengine/src/resource/mod.rs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 53,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								33,
+								33
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/Rust/Rust.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "cyberengine/src/resource/tilemap.rs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7938,
+								7940
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/Rust/Rust.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "cyberengine/src/graphics/mod.rs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 650,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								513,
+								513
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/Rust/Rust.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "cyberpunk/src/main.rs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3085,
+								3085
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Rust/Rust.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1368.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "cyberengine/src/graphics/texture.rs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2359,
+								2359
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/Rust/Rust.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1187.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/feikki/Downloads/gfx-master/gfx-master/examples/support/ubo_tilemap/main.rs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5290,
+								5290
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Rust/Rust.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2413.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "cyberengine/target/doc/imgui/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 45007,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "cyberengine/Cargo.toml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 404,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								200,
+								200
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "cyberengine/src/lib.rs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 482,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								354,
+								354
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Rust/Rust.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "cyberengine/target/doc/cyberengine/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5504,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "cyberpunk/Cargo.toml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 210,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								209,
+								208
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 14,
+					"file": "cyberpunk/resources/maps/offices.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6980,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 8,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "cyberpunk/resources/maps/tilesets/basic_tileset.json",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 8614,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 417.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.648416886544,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 138.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 80.0
+	},
+	"pinned_build_system": "Packages/Rust Enhanced/RustEnhanced.sublime-build",
+	"project": "rust_cyberpunk.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"skeleton",
+				"engine\\skeletal\\skeleton.lua"
+			],
+			[
+				"ac",
+				"engine\\skeletal\\actor.lua"
+			],
+			[
+				"out",
+				"engine/tools/navmesher/out_test.lua"
+			],
+			[
+				"off",
+				"game/resources/maps/offices.lua"
+			],
+			[
+				"office",
+				"game/resources/maps/offices.lua"
+			],
+			[
+				"play",
+				"game/gamestates/playstate.lua"
+			],
+			[
+				"pla",
+				"game/gamestates/playstate.lua"
+			],
+			[
+				"conf",
+				"conf.lua"
+			],
+			[
+				"",
+				"game/resources/maps/offices.lua"
+			],
+			[
+				"offi",
+				"game/resources/maps/offices.lua"
+			],
+			[
+				"offic",
+				"game/resources/maps/offices.lua"
+			],
+			[
+				"engine",
+				"engine/init.lua"
+			],
+			[
+				"offices",
+				"game/resources/maps/offices.lua"
+			],
+			[
+				"engin",
+				"engine/init.lua"
+			],
+			[
+				"main",
+				"main.lua"
+			],
+			[
+				"view",
+				"apartment/views.py"
+			],
+			[
+				"apartments",
+				"apartment/views.py"
+			],
+			[
+				"docuview",
+				"document/views.py"
+			],
+			[
+				"document/app",
+				"document/apps.py"
+			],
+			[
+				"co",
+				"engine/ecs/systems/collision_system.lua"
+			],
+			[
+				"tile",
+				"engine/tilemap.lua"
+			],
+			[
+				"coll",
+				"engine/ecs/systems/collision_system.lua"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 1000.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\aatu\\OneDrive\\Tiedostot\\GitHub\\lovesvg\\lovesvg.sublime-project"
+			],
+			[
+				"lehto",
+				"~/tyot/lehto/lehto.sublime-project"
+			],
+			[
+				"mmo",
+				"~/love/mmorpg/mmorpg.sublime-project"
+			],
+			[
+				"mmor",
+				"~/love/mmorpg/mmorpg.sublime-project"
+			],
+			[
+				"var",
+				"~/VarjoBot/VarjoBot.sublime-project"
+			],
+			[
+				"tassu",
+				"~/tassu.pw/tassupw.sublime-project"
+			]
+		],
+		"width": 760.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 164.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

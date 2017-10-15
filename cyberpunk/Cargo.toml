@@ -1,0 +1,9 @@
+[package]
+name = "cyberpunk"
+version = "0.1.0"
+authors = ["Aatu Hieta <aatu@hieta.fi>"]
+
+[dependencies]
+cyberengine = { path = "../cyberengine" }
+imgui = { git = "https://github.com/Gekkio/imgui-rs" }
+gfx = "*"
