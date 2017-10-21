@@ -40,9 +40,9 @@ impl game::Playable for Game {
     }
 
     fn load(&mut self, factory: &mut cyberengine::graphics::Factory) -> () {
-        self.map =
-            cyberengine::resource::tilemap::load_tiled("resources/maps/offices.json", factory)
-                .expect("failed to load map");
+        use cyberengine::resource::tilemap::Tilemap;
+        self.map = Tilemap::from_tiled_json("resources/maps/offices.json", factory)
+            .expect("failed to load map");
     }
 
     #[allow(unused_variables)]
@@ -60,30 +60,48 @@ impl game::Playable for Game {
                     mouse_pos.1
                 ));
                 if ui.collapsing_header(im_str!("Tilemap Info")).build() {
-                    let map: &mut resource::tilemap::Tilemap = &mut self.map;
-                    ui.text(im_str!("filename           {}", map.filename));
-                    ui.text(im_str!("JSON format:       {}", map.version));
-                    ui.text(im_str!("width (in tiles)   {}", map.width));
-                    ui.text(im_str!("height (in tiles)  {}", map.height));
-                    ui.text(im_str!("width (in pixels)  {}", map.width * map.tilewidth));
+                    ui.text(im_str!("filename           {}", self.map.filename));
+                    ui.text(im_str!("JSON format:       {}", self.map.version));
+                    ui.text(im_str!("width (in tiles)   {}", self.map.width));
+                    ui.text(im_str!("height (in tiles)  {}", self.map.height));
+                    ui.text(im_str!(
+                        "width (in pixels)  {}",
+                        self.map.width * self.map.tilewidth
+                    ));
                     ui.text(im_str!(
                         "height (in pixels) {}",
-                        map.height * map.tileheight
+                        self.map.height * self.map.tileheight
                     ));
                     if ui.collapsing_header(im_str!("Layers")).build() {
-                        for l in &mut map.layers {
-                            ui.tree_node(im_str!("{}", l.name))
-                                .label(im_str!("{}", l.name))
-                                .build(|| {
-                                    ui.text(im_str!("type              {}", l.layertype));
-                                    ui.text(im_str!("width (in tiles)  {}", l.width));
-                                    ui.text(im_str!("height (in tiles) {}", l.height));
-                                    ui.checkbox(im_str!("visible?"), &mut l.visible);
-                                })
+                        for l in &mut self.map.layers {
+                            if ui.collapsing_header(im_str!("{}", l.name)).build() {
+                                ui.text(im_str!("type              {}", l.layertype));
+                                ui.text(im_str!("width (in tiles)  {}", l.width));
+                                ui.text(im_str!("height (in tiles) {}", l.height));
+                                ui.checkbox(im_str!("visible?"), &mut l.visible);
+                                ui.text(im_str!("data"));
+                                use cyberengine::resource::tilemap::LayerData::*;
+                                match l.data {
+                                    TileData(ref data) => {
+                                        for y in 0..l.height {
+                                            let w = l.width;
+                                            let text = data.get(
+                                                (y * w) as usize..((y + 1) * w) as usize,
+                                            ).unwrap()
+                                                .into_iter()
+                                                .map(|t| format!("{}", t))
+                                                .collect::<Vec<String>>()
+                                                .join(" ");
+                                            ui.text(im_str!("{}", text));
+                                        }
+                                    }
+                                    ObjectData(ref objects) => {}
+                                }
+                            }
                         }
                     }
                     if ui.collapsing_header(im_str!("Tilesets")).build() {
-                        for ts in &mut map.tilesets {
+                        for ts in &mut self.map.tilesets {
                             ui.tree_node(im_str!("{}", ts.name)).build(|| {
                                 ui.text(im_str!("root path {}", ts.root));
                                 ui.text(im_str!(
@@ -120,5 +138,5 @@ impl game::Playable for Game {
 fn main() -> () {
     use cyberengine::game::Playable;
     let mut game: Game = Game::new();
-    game.run("neekeri".to_owned(), [0.0, 0.0, 0.0, 1.0]);
+    game.run("rust demo no steal pls".to_owned(), [0.0, 0.0, 0.0, 1.0]);
 }

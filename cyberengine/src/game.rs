@@ -4,8 +4,10 @@ use std::time::Instant;
 use imgui::{ImGui, Ui};
 use imgui_gfx_renderer::{Renderer, Shaders};
 use gfx;
+use gfx_core::Factory;
 
-use super::graphics;
+use graphics;
+use graphics::Drawable;
 
 
 fn configure_keys(imgui: &mut ImGui) {
@@ -89,8 +91,11 @@ pub trait Playable {
             }
         };
 
+        let (_, ui_view, mut ui_color) = factory.create_render_target(1024, 768).unwrap();
+        let ui_texture = graphics::texture::Texture::from_view(&mut factory, ui_view);
+
         let mut imgui = ImGui::init();
-        let mut renderer = Renderer::init(&mut imgui, &mut factory, shaders, main_color.clone())
+        let mut renderer = Renderer::init(&mut imgui, &mut factory, shaders, ui_color.clone())
             .expect("Failed to initialize renderer");
 
         configure_keys(&mut imgui);
@@ -115,7 +120,7 @@ pub trait Playable {
                                 &mut main_color,
                                 &mut main_depth,
                             );
-                            renderer.update_render_target(main_color.clone());
+                            //renderer.update_render_target(ui_color.clone());
                         }
                         Closed => quit = true,
                         KeyboardInput { input, .. } => {
@@ -194,7 +199,7 @@ pub trait Playable {
 
             let ui = imgui.frame(size_points, size_pixels, delta_s);
 
-            Self::tick(self, &ui, delta_s);
+            self.tick(&ui, delta_s);
 
             if !self.running() {
                 break;
@@ -202,9 +207,11 @@ pub trait Playable {
 
             encoder.clear(&mut main_color, clear_color);
             self.render(&mut factory, &mut encoder, main_color.clone());
+            encoder.clear(&mut ui_color, [0., 0., 0., 0.]);
             renderer.render(ui, &mut factory, &mut encoder).expect(
                 "Rendering failed",
             );
+            ui_texture.draw(&mut factory, &mut encoder, main_color.clone());
             encoder.flush(&mut device);
             window.context().swap_buffers().unwrap();
             device.cleanup();

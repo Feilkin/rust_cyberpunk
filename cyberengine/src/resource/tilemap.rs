@@ -1,6 +1,8 @@
 //! Complex Tiled Implementation
 //!
-//! What even is cheesy?
+//! The Tilemap is loaded from Tiled JSON file. (unless someone implements some
+//! other loaders Kappa). It should handle loading all the required stuff
+//! (Tilesets, Scripts?), and rendering itself.
 //!
 
 use std::fs::File;
@@ -10,13 +12,23 @@ use serde_json;
 use serde_json::Value;
 use serde_json::map::Map;
 
-use super::super::graphics;
+use genmesh::{Quad, EmitTriangles, MapVertex, Triangulate, MapToVertices, Vertices};
+use genmesh::generators::Plane;
 
-#[derive(Debug)]
+use graphics;
+
+#[derive(Debug, Serialize, Deserialize)]
 struct MapObject {}
 
 #[derive(Debug, Clone)]
 pub struct Terrain {}
+
+#[derive(Debug, Serialize, Deserialize)]
+#[serde(untagged)]
+pub enum LayerData {
+    TileData(Vec<i32>),
+    ObjectData(Map<String, Value>),
+}
 
 #[derive(Debug, Serialize, Deserialize)]
 
@@ -43,14 +55,59 @@ pub struct Layer {
     pub visible: bool,
     pub x: i32,
     pub y: i32,
-    data: Option<Vec<i32>>,
-    #[serde(skip_serializing, skip_deserializing)]
-    objects: Option<Vec<MapObject>>,
+    pub data: LayerData,
     pub properties: Option<Map<String, Value>>,
     pub opacity: f64,
+    #[serde(skip_serializing, skip_deserializing)]
+    _plane: Vec<graphics::texture::Vertex>,
 }
 
 impl Layer {
+    fn setup_plane(&mut self) -> () {
+        use graphics::texture::Vertex;
+        let vertex_data: Vec<Vertex> = Plane::subdivide(self.width as usize, self.height as usize)
+            .vertex(|v| {
+                Vertex {
+                    pos: [v.pos[0], v.pos[1]],
+                    uv: [0., 0.],
+                    color: [1., 0., 1.],
+                }
+            })
+            .map(|Quad {
+                 x: v0,
+                 y: v1,
+                 z: v2,
+                 w: v3,
+             }| {
+                let quad_x = 
+                Quad::new(
+                    Vertex {
+                        pos: v0.pos,
+                        uv: [0., 64. / 1280.],
+                        color: v0.color,
+                    },
+                    Vertex {
+                        pos: v1.pos,
+                        uv: [64. / 1728., 64. / 1280.],
+                        color: v1.color,
+                    },
+                    Vertex {
+                        pos: v2.pos,
+                        uv: [64. / 1728., 0.],
+                        color: v2.color,
+                    },
+                    Vertex {
+                        pos: v3.pos,
+                        uv: [0., 0.],
+                        color: v3.color,
+                    },
+                )
+            })
+            .triangulate()
+            .vertices()
+            .collect();
+    }
+
     #[allow(dead_code)]
     fn get_tile(&self, x: i32, y: i32) -> i32 {
         if self.layertype != "tilelayer" {
@@ -66,13 +123,23 @@ impl Layer {
             panic!("Y coordinate out of bounds {:?}", self)
         }
 
-        /*
-        let val: &i32 = self.data
-            .unwrap()
-            .get((y * self.width + x) as usize)
-            .unwrap();
-            */
-        0
+        match self.data {
+            LayerData::TileData(ref data) => data[(y * self.width + x) as usize],
+            _ => panic!("Not a Tile layer?? {:?}", self),
+        }
+    }
+
+    fn draw(&self, factory: &mut graphics::Factory) -> () {
+        match self.data {
+            LayerData::TileData(_) => self.draw_tilelayer(factory),
+            LayerData::ObjectData(_) => self.draw_objectlayer(factory),
+        }
+    }
+
+    fn draw_tilelayer(&self, factory: &mut graphics::Factory) -> () {}
+
+    fn draw_objectlayer(&self, factory: &mut graphics::Factory) -> () {
+        unimplemented!();
     }
 }
 
@@ -198,6 +265,25 @@ impl Tilemap {
         }
     }
 
+
+    pub fn from_tiled_json(
+        filename: &str,
+        factory: &mut graphics::Factory,
+    ) -> Result<Tilemap, String> {
+        println!("Loading Tilemap from {}", filename);
+
+        let mut f = File::open(filename).expect("file not found");
+        let mut contents = String::new();
+        f.read_to_string(&mut contents).expect(
+            "something went wrong reading the file",
+        );
+
+        let mut map: Tilemap = serde_json::from_str(&contents).unwrap();
+        map.filename = filename.to_owned();
+        map.load_tilesets(factory);
+        Ok(map)
+    }
+
     pub fn load_tilesets(&mut self, factory: &mut graphics::Factory) -> () {
         let root = Path::new(&self.filename)
             .parent()
@@ -249,19 +335,4 @@ pub fn load_tileset(filename: &str) -> Result<Tileset, String> {
 
     let tileset: Tileset = serde_json::from_str(&contents).unwrap();
     Ok(tileset)
-}
-
-pub fn load_tiled(filename: &str, factory: &mut graphics::Factory) -> Result<Tilemap, String> {
-    println!("Loading Tilemap from {}", filename);
-
-    let mut f = File::open(filename).expect("file not found");
-    let mut contents = String::new();
-    f.read_to_string(&mut contents).expect(
-        "something went wrong reading the file",
-    );
-
-    let mut map: Tilemap = serde_json::from_str(&contents).unwrap();
-    map.filename = filename.to_owned();
-    map.load_tilesets(factory);
-    Ok(map)
 }
