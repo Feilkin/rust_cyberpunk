@@ -1,0 +1,22 @@
+[package]
+name = "cyberengine"
+version = "0.1.0"
+authors = ["Aatu Hieta <aatu@hieta.fi>"]
+
+[dependencies]
+cgmath = "0.15"
+genmesh = "0.5"
+gfx = "0.16"
+gfx_core = "0.7"
+gfx_device_gl = "0.14"
+image = "0.17"
+imgui = "0.0.16"
+imgui-gfx-renderer = "0.0.16"
+rand = "0.3"
+serde = "1.0"
+serde_derive = "1.0"
+specs = "0.10"
+toml = "0.4"
+winit = "0.8"
+glutin = "*"
+gfx_window_glutin = "*"

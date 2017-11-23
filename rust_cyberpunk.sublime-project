@@ -2,10 +2,21 @@
 	"folders":
 	[
 		{
-			"path": "cyberengine"
-		},
-		{
 			"path": "cyberpunk"
-		}
-	]
+		},
+	],
+	"settings":
+	{
+		"cargo_build":
+		{
+			"default_path": "E:\\work\\git\\rust_cyberpunk\\cyberpunk"
+		},
+        "todoreview": {
+            "exclude_folders": [
+                "*.git*",
+                "*[/\\]target[/\\]*",
+                "*old_stuff*"
+            ]
+        }
+	}
 }

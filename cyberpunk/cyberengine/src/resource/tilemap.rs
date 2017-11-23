@@ -17,6 +17,14 @@ use genmesh::generators::Plane;
 
 use graphics;
 
+gfx_defines! {
+    vertex TileVertex {
+        pos: [f32; 2] = "a_Pos",
+        uv: [f32; 2]  = "a_Uv",
+        color: [f32; 3] = "a_Color",
+    }
+}
+
 #[derive(Debug, Serialize, Deserialize)]
 struct MapObject {}
 
@@ -79,7 +87,6 @@ impl Layer {
                  z: v2,
                  w: v3,
              }| {
-                let quad_x = 
                 Quad::new(
                     Vertex {
                         pos: v0.pos,
@@ -190,7 +197,7 @@ pub struct Tileset {
     pub tilecount: Option<i32>,
     //tiles: Map<String, Value>,
     #[serde(skip_serializing, skip_deserializing)]
-    _texture: Option<graphics::texture::Texture>,
+    _texture: Option<graphics::texture::Texture<graphics::texture::pipe_tex::Meta, TileVertex>>,
 }
 
 impl Tileset {
@@ -207,7 +214,7 @@ impl Tileset {
         self._texture = Some(texture);
     }
 
-    pub fn get_texture(&self) -> Result<&graphics::texture::Texture, String> {
+    pub fn get_texture(&self) -> Result<&graphics::texture::Texture<graphics::texture::pipe_tex::Meta, TileVertex>, String> {
         match self._texture {
             Some(ref texture) => Ok(texture),
             None => Err("Texture needs to be loaded first!".to_owned()),
