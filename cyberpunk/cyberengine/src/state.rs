@@ -15,6 +15,7 @@ use systems::sprite::{TestSystem, Position, Sprite};
 pub struct GameState {
     loaded: bool,
     pub world: specs::World,
+    rendering_systems: Vec<Box<graphics::RenderingSystem>>,
 }
 
 impl GameState {
@@ -26,6 +27,7 @@ impl GameState {
         GameState {
             loaded: false,
             world: world,
+            rendering_systems: vec![Box::new(TestSystem { renderer: None })],
         }
     }
 
@@ -42,22 +44,27 @@ impl GameState {
     fn update(&mut self, delta: Duration) -> () {}
 
     /// Renders the scene.
-    fn render(&mut self, renderer: &mut graphics::Renderer) -> () {
+    fn render(&mut self, mut renderer: graphics::Renderer) -> graphics::Renderer {
         use specs::RunNow;
+        use graphics::RenderingSystem;
 
         self.world.create_entity()
             .with(Position { x: rand::random::<f32>() * 1000. - 500., y: rand::random::<f32>() * 1000. - 500.})
             .with(Sprite { texture: renderer.debug_texture.clone()});
+            
+        for rs in self.rendering_systems.iter_mut(){
+            let res = &mut self.world.res;
+            renderer = rs.render_world(res, renderer);
+        }
 
-        let mut renderer_system = TestSystem { renderer: Some(renderer) };
-        renderer_system.run_now(&self.world.res);
+        renderer
     }
 
     /// Called when the State is left.
     fn leave(&mut self) -> () {}
 }
 
-fn splash_state() -> GameState {
+fn splash_state() -> GameState{
     GameState::new()
 }
 
@@ -111,8 +118,9 @@ impl Manager {
         }
     }
 
-    pub fn render(&mut self, renderer: &mut graphics::Renderer) -> () {
+    pub fn render(&mut self, mut renderer: graphics::Renderer) -> graphics::Renderer {
         let current_state = self.states.get_mut(self.current_state).unwrap();
-        current_state.render(renderer);
+        renderer = current_state.render(renderer);
+        renderer
     }
 }

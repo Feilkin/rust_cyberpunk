@@ -6,6 +6,9 @@ use cgmath::{Deg, Matrix4, SquareMatrix, Vector3, Vector4, Point3};
 use gfx;
 use gfx_core;
 
+use specs;
+use shred;
+
 const CLEAR_COLOR: [f32; 4] = [0., 0., 0., 1.];
 
 pub use gfx_device_gl as backend;
@@ -129,4 +132,14 @@ impl Renderer {
 
         self.encoder.draw(&texture.slice, &self.pso_texture, &data);
     }
+}
+
+
+pub trait RenderingSystem {
+    /// Render the world with the system, and return the Renderer (unharmed)
+    fn render_world<'s, 'r>(
+        &'s mut self,
+        res: &'r mut shred::Resources,
+        renderer: Renderer,
+    ) -> Renderer;
 }

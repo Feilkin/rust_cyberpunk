@@ -1,5 +1,8 @@
+use std::mem;
+
 use gfx;
-use specs::{Component, System, ReadStorage, VecStorage, Join};
+use specs::{Component, System, ReadStorage, VecStorage, Join, RunNow};
+use shred;
 
 use graphics;
 
@@ -21,11 +24,11 @@ impl Component for Sprite {
     type Storage = VecStorage<Self>;
 }
 
-pub struct TestSystem<'a> {
-    pub renderer: Option<&'a mut graphics::Renderer>,
+pub struct TestSystem {
+    pub renderer: Option<graphics::Renderer>,
 }
 
-impl<'a> System<'a> for TestSystem<'a> {
+impl<'a> System<'a> for TestSystem {
     type SystemData = (ReadStorage<'a, Position>, ReadStorage<'a, Sprite>);
 
     fn run(&mut self, (position, sprite): Self::SystemData) {
@@ -35,6 +38,29 @@ impl<'a> System<'a> for TestSystem<'a> {
                 for (position, sprite) in (&position, &sprite).join() {
                     renderer.draw_texture(&sprite.texture, (position.x, position.y));
                 }
+            }
+        }
+    }
+}
+
+impl graphics::RenderingSystem for TestSystem {
+    fn render_world<'s, 'r>(
+        &'s mut self,
+        res: &'r mut shred::Resources,
+        renderer: graphics::Renderer,
+    ) -> graphics::Renderer {
+        use specs::RunNow;
+
+        {
+            self.renderer = Some(renderer);
+            self.run_now(res);
+        }
+        let renderer = mem::replace(&mut self.renderer, None);
+
+        match renderer {
+            Some(renderer) => renderer,
+            None => {
+                panic!("No renderer after render??");
             }
         }
     }

@@ -21,10 +21,11 @@ impl Screen {
         self.statemanager.update(delta);
     }
 
-    pub fn render(&mut self) -> () {
+    pub fn render(mut self) -> Screen {
         self.renderer.clear();
-        self.statemanager.render(&mut self.renderer);
+        self.renderer = self.statemanager.render(self.renderer);
         self.renderer.flush();
+        self
     }
 
     pub fn cleanup(&mut self) -> () {

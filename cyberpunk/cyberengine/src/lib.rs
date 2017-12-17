@@ -15,6 +15,7 @@ extern crate rand;
 #[macro_use]
 extern crate serde_derive;
 extern crate specs;
+extern crate shred;
 extern crate toml;
 extern crate winit;
 extern crate glutin;

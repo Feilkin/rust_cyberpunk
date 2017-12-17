@@ -35,22 +35,25 @@ impl Game {
         toml::from_str(include_str!("../../src/game_config.toml")).unwrap()
     }
 
-    pub fn play(&mut self) -> () {
+    pub fn play(mut self) -> () {
         // IDK poll the window or something
 
         let mut last_frame_update = Instant::now();
 
+        let mut window = self.window;
+
         loop {
             let delta = last_frame_update.elapsed();
 
-            if !self.window.poll_events() {
+            if !window.poll_events() {
                 break;
             }
 
-            self.window.update(delta);
+            window.update(delta);
 
             last_frame_update = Instant::now();
-            self.window.render();
+
+            window = window.render();
         }
     }
 }

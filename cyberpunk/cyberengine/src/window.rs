@@ -118,12 +118,13 @@ pub struct Window {
 }
 
 impl Window {
-    pub fn render(&mut self) -> () {
-        self.screen.render();
+    pub fn render(mut self) -> Window {
+        self.screen = self.screen.render();
 
         use glutin::GlContext;
         self.window_handle.swap_buffers().unwrap();
         self.screen.cleanup();
+        self
     }
 
     pub fn update(&mut self, delta: Duration) -> () {
