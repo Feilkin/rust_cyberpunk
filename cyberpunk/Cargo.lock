@@ -189,6 +189,7 @@ dependencies = [
  "imgui 0.0.16 (registry+https://github.com/rust-lang/crates.io-index)",
  "imgui-gfx-renderer 0.0.16 (registry+https://github.com/rust-lang/crates.io-index)",
  "rand 0.3.17 (registry+https://github.com/rust-lang/crates.io-index)",
+ "rayon 0.8.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde 1.0.16 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde_derive 1.0.16 (registry+https://github.com/rust-lang/crates.io-index)",
  "shred 0.5.0 (registry+https://github.com/rust-lang/crates.io-index)",

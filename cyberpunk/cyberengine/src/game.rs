@@ -43,12 +43,12 @@ impl Game {
         let mut window = self.window;
 
         loop {
-            let delta = last_frame_update.elapsed();
 
             if !window.poll_events() {
                 break;
             }
 
+            let delta = last_frame_update.elapsed();
             window.update(delta);
 
             last_frame_update = Instant::now();

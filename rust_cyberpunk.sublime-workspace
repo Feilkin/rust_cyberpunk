@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"Dis",
+				"DispatcherBuilder"
+			],
+			[
+				"render",
+				"rendering_systems"
+			],
+			[
+				"wo",
+				"world_init"
+			],
+			[
+				"Render",
+				"RenderingSystem"
+			],
+			[
+				"text",
+				"texture_cache"
+			],
+			[
+				"to_",
+				"to_remove"
+			],
+			[
+				"Fac",
+				"Factory"
+			],
+			[
+				"tex",
+				"texture"
+			],
+			[
+				"texture_",
+				"texture_identifier"
+			],
+			[
+				"Sprite",
+				"SpriteLoader"
+			],
+			[
+				"Rend",
+				"RenderingSystem"
+			],
+			[
+				"reder",
+				"rendering_systems"
+			],
+			[
 				"de",
 				"debug_texture"
 			],
@@ -26,10 +74,6 @@
 			[
 				"pro",
 				"projection_cb"
-			],
-			[
-				"Fac",
-				"FactoryExt"
 			],
 			[
 				"main",
@@ -140,10 +184,6 @@
 				"MapObject"
 			],
 			[
-				"Render",
-				"RenderTargetView"
-			],
-			[
 				"vertex",
 				"vertex_data"
 			],
@@ -158,10 +198,6 @@
 			[
 				"Re",
 				"Resource"
-			],
-			[
-				"to_",
-				"to_owned"
 			],
 			[
 				"Res",
@@ -478,42 +514,6 @@
 			[
 				"setlin",
 				"love.graphics.setLineWidth"
-			],
-			[
-				"point",
-				"love.graphics.point"
-			],
-			[
-				"COMMAN",
-				"COMMAND_ARG_DELIM"
-			],
-			[
-				"third",
-				"thirdparty"
-			],
-			[
-				"splatter",
-				"splatterLayer"
-			],
-			[
-				"recta",
-				"love.graphics.rectangle"
-			],
-			[
-				"eyeLevel",
-				"eyeLevelStanding"
-			],
-			[
-				"object",
-				"objectHeight"
-			],
-			[
-				"mouseget",
-				"love.mouse.getPosition"
-			],
-			[
-				"Bullet",
-				"BulletRenderingSystem"
 			]
 		]
 	},
@@ -532,7 +532,7 @@
 			"file": "cyberpunk/src/main.rs",
 			"settings":
 			{
-				"buffer_size": 202,
+				"buffer_size": 230,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -541,7 +541,16 @@
 			"file": "cyberpunk/cyberengine/src/systems/sprite.rs",
 			"settings":
 			{
-				"buffer_size": 954,
+				"buffer_size": 4411,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cyberpunk/cyberengine/src/resource/tilemap.rs",
+			"settings":
+			{
+				"buffer_size": 11690,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -550,7 +559,7 @@
 			"file": "cyberpunk/cyberengine/src/game.rs",
 			"settings":
 			{
-				"buffer_size": 1468,
+				"buffer_size": 1481,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -577,26 +586,16 @@
 			"file": "cyberpunk/cyberengine/src/state.rs",
 			"settings":
 			{
-				"buffer_size": 3310,
+				"buffer_size": 4981,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Searching 905 files for \"vittu\" (case sensitive)\n\nE:\\work\\git\\rust_cyberpunk\\cyberpunk\\cyberengine\\src\\graphics\\texture.rs:\n   49      fn default_vertex_data_and_index(d: (u32, u32)) -> (Vec<Vertex>, Vec<u32>) {\n   50          let (hw, hh) = (d.0 as f32 / 2., d.1 as f32 / 2.);\n   51:         println!(\"vittu: {:?}\", (hw, hh));\n   52          (vec![\n   53              Vertex { pos: [-hw, -hh], uv: [0., 1.], color: [1., 1., 1., 1.]},\n\nE:\\work\\git\\rust_cyberpunk\\cyberpunk\\target\\debug\\libcyberengine.rlib:\n    <binary>\n\nE:\\work\\git\\rust_cyberpunk\\cyberpunk\\target\\debug\\deps\\libcyberengine-a9d0dacb844f4239.rlib:\n    <binary>\n\n3 matches across 3 files\n",
-			"settings":
-			{
-				"buffer_size": 653,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
 			}
 		},
 		{
 			"file": "cyberpunk/cyberengine/src/lib.rs",
 			"settings":
 			{
-				"buffer_size": 640,
+				"buffer_size": 740,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -614,7 +613,7 @@
 			"file": "cyberpunk/cyberengine/src/screen.rs",
 			"settings":
 			{
-				"buffer_size": 727,
+				"buffer_size": 734,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -623,7 +622,7 @@
 			"file": "cyberpunk/cyberengine/src/window.rs",
 			"settings":
 			{
-				"buffer_size": 11407,
+				"buffer_size": 11413,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -632,7 +631,16 @@
 			"file": "cyberpunk/cyberengine/src/graphics/mod.rs",
 			"settings":
 			{
-				"buffer_size": 4001,
+				"buffer_size": 4270,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "cyberpunk/cyberengine/src/resource/mod.rs",
+			"settings":
+			{
+				"buffer_size": 99,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -641,7 +649,7 @@
 			"file": "cyberpunk/cyberengine/src/graphics/texture.rs",
 			"settings":
 			{
-				"buffer_size": 4755,
+				"buffer_size": 4770,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -659,19 +667,9 @@
 			"file": "cyberpunk/cyberengine/Cargo.toml",
 			"settings":
 			{
-				"buffer_size": 379,
+				"buffer_size": 405,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "// Sunday 10/29/17 at 08:04PM - 21 files in 0.07 secs\n\n## NOTE (2)\n1. src/screen.rs:29    some debugging :)\n2. src/window.rs:108   UI stuff, will probably move this away later\n\n## TODO (5)\n1. src/config.rs:2     Figure out what I am trying to do here.\n2. src/config.rs:6     Maybe use this at compile time? Or something?\n3. src/game.rs:32      I have no idea what I am doing\n4. src/window.rs:14    maybe add support to backends other than glutin, in the future?\n5. src/window.rs:283   move these out of here\n",
-			"settings":
-			{
-				"buffer_size": 508,
-				"line_ending": "Windows",
-				"name": "TodoReview",
-				"scratch": true
 			}
 		}
 	],
@@ -1069,6 +1067,16 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"<'a, 'b>",
+			"<'s>",
+			"<'g>",
+			"<'s>",
+			"<'w>",
+			"<'gs>",
+			"TestSystem",
+			"<'a>",
+			"'a",
+			"<'a>",
 			"vittu",
 			"factory",
 			"winit",
@@ -1186,17 +1194,7 @@
 			"oncharacter_start_of_turn",
 			"icon",
 			"get_attribute",
-			"health",
-			"get_stat",
-			"ppf_troop",
-			"ppf_troops",
-			":",
-			"love",
-			"keypressed",
-			"print",
-			"perpwd",
-			"_draw",
-			"daylevel:enter"
+			"health"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1216,7 +1214,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -1255,15 +1253,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 202,
+						"buffer_size": 230,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								202,
-								202
+								230,
+								230
 							]
 						],
 						"settings":
@@ -1278,7 +1276,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -1287,15 +1285,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 954,
+						"buffer_size": 4411,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								392,
-								390
+								886,
+								886
 							]
 						],
 						"settings":
@@ -1307,27 +1305,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 114.0,
+						"translation.y": 1665.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "cyberpunk/cyberengine/src/game.rs",
-					"semi_transient": false,
+					"file": "cyberpunk/cyberengine/src/resource/tilemap.rs",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1468,
+						"buffer_size": 11690,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								413,
-								413
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1338,14 +1336,45 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 127.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
+					"file": "cyberpunk/cyberengine/src/game.rs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1481,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								288,
+								292
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Rust/Rust.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "cyberpunk/cyberengine/src/config.rs",
 					"semi_transient": false,
 					"settings":
@@ -1372,11 +1401,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "cyberpunk/src/game_config.toml",
 					"semi_transient": false,
 					"settings":
@@ -1401,32 +1430,32 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "cyberpunk/cyberengine/src/state.rs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3310,
+						"buffer_size": 4981,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1534,
-								1534
+								2601,
+								2601
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": 0,
-								"count": 175,
+								"changes": 111,
+								"count": 267,
 								"modified": false,
 								"selection": false,
 								"status": -1,
@@ -1439,58 +1468,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 826.0,
+						"translation.y": 50.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 653,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										303,
-										308
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								84,
-								84
-							]
-						],
-						"settings":
-						{
-							"default_dir": "E:\\work\\git\\rust_cyberpunk\\cyberpunk",
-							"detect_indentation": false,
-							"git_gutter_is_enabled": false,
-							"line_numbers": false,
-							"output_tag": 1,
-							"result_base_dir": "",
-							"result_file_regex": "^([^ \t].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
 					"type": "text"
 				},
 				{
@@ -1499,15 +1480,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 640,
+						"buffer_size": 740,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								192,
-								190
+								637,
+								635
 							]
 						],
 						"settings":
@@ -1517,10 +1498,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 171.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1536,8 +1517,8 @@
 						"selection":
 						[
 							[
-								14,
-								12
+								16,
+								16
 							]
 						],
 						"settings":
@@ -1551,7 +1532,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
@@ -1560,15 +1541,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 727,
+						"buffer_size": 734,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								274,
-								274
+								106,
+								112
 							]
 						],
 						"settings":
@@ -1583,7 +1564,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1592,15 +1573,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11407,
+						"buffer_size": 11413,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1239,
-								1239
+								2711,
+								2717
 							]
 						],
 						"settings":
@@ -1612,10 +1593,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 747.0,
+						"translation.y": 1810.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -1624,15 +1605,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4001,
+						"buffer_size": 4270,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1874,
-								1874
+								4267,
+								4267
 							]
 						],
 						"settings":
@@ -1643,45 +1624,75 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1606.0,
+						"translation.y": 2457.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "cyberpunk/cyberengine/src/resource/mod.rs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 99,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								99,
+								99
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Rust/Rust.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "cyberpunk/cyberengine/src/graphics/texture.rs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4770,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4770,
+								4770
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Rust/Rust.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2459.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
-					"file": "cyberpunk/cyberengine/src/graphics/texture.rs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4755,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4512,
-								4514
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Rust/Rust.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2841.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
+					"buffer": 15,
 					"file": "cyberpunk/Cargo.toml",
 					"semi_transient": false,
 					"settings":
@@ -1710,20 +1721,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 16,
 					"file": "cyberpunk/cyberengine/Cargo.toml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 379,
+						"buffer_size": 405,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								264,
-								262
+								404,
+								403
 							]
 						],
 						"settings":
@@ -1735,119 +1746,14 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 13,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 16,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 508,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"default_dir": "E:\\work\\git\\rust_cyberpunk\\cyberpunk",
-							"git_gutter_is_enabled": false,
-							"line_padding_bottom": 2,
-							"line_padding_top": 2,
-							"review_args":
-							{
-								"settings":
-								{
-									"exclude_folders":
-									[
-										"*.git*",
-										"*[/\\]target[/\\]*",
-										"*old_stuff*"
-									]
-								}
-							},
-							"review_results":
-							{
-								"108,176":
-								{
-									"file": "E:\\work\\git\\rust_cyberpunk\\cyberpunk\\cyberengine\\src\\window.rs",
-									"line": 108,
-									"note": "UI stuff, will probably move this away later",
-									"patt": "note",
-									"priority": 100
-								},
-								"189,252":
-								{
-									"file": "E:\\work\\git\\rust_cyberpunk\\cyberpunk\\cyberengine\\src\\config.rs",
-									"line": 2,
-									"note": "Figure out what I am trying to do here.",
-									"patt": "todo",
-									"priority": 100
-								},
-								"252,321":
-								{
-									"file": "E:\\work\\git\\rust_cyberpunk\\cyberpunk\\cyberengine\\src\\config.rs",
-									"line": 6,
-									"note": "Maybe use this at compile time? Or something?",
-									"patt": "todo",
-									"priority": 100
-								},
-								"321,375":
-								{
-									"file": "E:\\work\\git\\rust_cyberpunk\\cyberpunk\\cyberengine\\src\\game.rs",
-									"line": 32,
-									"note": "I have no idea what I am doing",
-									"patt": "todo",
-									"priority": 100
-								},
-								"375,462":
-								{
-									"file": "E:\\work\\git\\rust_cyberpunk\\cyberpunk\\cyberengine\\src\\window.rs",
-									"line": 14,
-									"note": "maybe add support to backends other than glutin, in the future?",
-									"patt": "todo",
-									"priority": 100
-								},
-								"462,508":
-								{
-									"file": "E:\\work\\git\\rust_cyberpunk\\cyberpunk\\cyberengine\\src\\window.rs",
-									"line": 283,
-									"note": "move these out of here",
-									"patt": "todo",
-									"priority": 100
-								},
-								"67,108":
-								{
-									"file": "E:\\work\\git\\rust_cyberpunk\\cyberpunk\\cyberengine\\src\\screen.rs",
-									"line": 29,
-									"note": "some debugging :)",
-									"patt": "note",
-									"priority": 100
-								}
-							},
-							"syntax": "Packages/TodoReview/TodoReview.hidden-tmLanguage",
-							"todo_results": true,
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1879,7 +1785,7 @@
 		"cols":
 		[
 			0.0,
-			0.639182058048,
+			0.620339836018,
 			1.0
 		],
 		"rows":
@@ -1891,7 +1797,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 193.0
+		"height": 224.0
 	},
 	"output.find_results":
 	{
@@ -1900,6 +1806,10 @@
 	"output.git":
 	{
 		"height": 80.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
 	},
 	"pinned_build_system": "Packages/Rust Enhanced/RustEnhanced.sublime-build",
 	"project": "rust_cyberpunk.sublime-project",
@@ -2175,7 +2085,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 164.0,
+	"side_bar_width": 191.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -1,3 +1,7 @@
 //! For loading stuff from places.
 
-pub mod tilemap;
+pub enum Identifier {
+    Image(String),
+}
+
+//pub mod tilemap;

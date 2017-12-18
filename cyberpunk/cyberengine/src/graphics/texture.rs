@@ -8,6 +8,7 @@ use gfx::traits::FactoryExt;
 use image;
 
 use graphics;
+use resource;
 
 gfx_defines! {
     vertex Vertex {
@@ -151,3 +152,4 @@ impl Texture {
         self.view.clone()
     }
 }
+

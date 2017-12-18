@@ -1,6 +1,8 @@
 //! # My Game Engine.
 //! Hopefully I will someday finish this.
 
+#![allow(unused_variables)]
+
 extern crate cgmath;
 extern crate genmesh;
 #[macro_use]
@@ -20,6 +22,7 @@ extern crate toml;
 extern crate winit;
 extern crate glutin;
 extern crate gfx_window_glutin;
+extern crate rayon;
 
 pub use specs::{Component, VecStorage, World, System, DispatcherBuilder};
 
@@ -31,3 +34,4 @@ pub mod window;
 pub mod graphics;
 pub mod screen;
 pub mod systems;
+pub mod resource;
